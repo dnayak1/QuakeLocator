@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuakeLocator</string>
+    <string name="copyright">Copyright &#169; Dhiraj Nayak, UNCC</string>
+    <string name="choose_title">Choose your Analysis Card</string>
+</resources>

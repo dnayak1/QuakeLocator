@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.HomeScreen.HomeActivity"
+    android:background="@drawable/home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlack"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/copyrightLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/progressLoading"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:indicatorName="BallGridPulseIndicator"
+        android:layout_centerInParent="true"
+        app:indicatorColor="@color/colorBlack"/>
+
+
+</RelativeLayout>
